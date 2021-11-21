@@ -1,0 +1,25 @@
+Bundler/OrderedGems:
+  Exclude:
+    - 'Gemfile'
+
+# Cop supports --auto-correct.
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 25
+
+Layout/LineLength:
+  Max: 250
+
+Style/Documentation:
+  Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: true
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+
+Style/RedundantCondition:
+  Enabled: true
